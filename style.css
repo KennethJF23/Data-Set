@@ -1,0 +1,29 @@
+.sphere1{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    box-shadow: inset 5px 5px 25px rgba(0,0,0,0.5);
+    margin: auto;
+    transform: translateY(100%);
+    animation: animate1 3s linear 1s infinite;
+}
+
+.sphere2{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    box-shadow: inset 5px 5px 25px rgba(0,0,0,0.51);
+    margin: auto;
+    transform: translateY(100%);
+    display: flex;
+    animation:animate1 3s linear 1s infinite;
+}
+
+@keyframes animate1 {
+    0%{
+        background:white;
+    }
+    100%{
+        background: black;
+    }
+}
